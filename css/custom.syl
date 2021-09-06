@@ -1,0 +1,5 @@
+body {
+  background: #f7f7f7 url("/imae/background.png");
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+}

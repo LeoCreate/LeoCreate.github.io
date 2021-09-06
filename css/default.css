@@ -12260,7 +12260,8 @@ body {
   background-color: rgba(255,255,255,0.812);
 }
 body.dark {
-  background-color: #000;
+  background-color: #000 !important;
+  background-image: none !important;
 }
 .dark .navbar {
   background-color: rgba(29,29,31,0.7) !important;
@@ -12402,7 +12403,7 @@ body.dark {
   color: #fff;
 }
 .dark .footer {
-  background-color: #1d1d1f;
+  background-color: #1d1d1f !important;
   color: #fff;
 }
 .dark .pagination .pagination-link,
